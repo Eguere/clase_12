@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+}
+nav {
+	padding: 30px;
+	margin: 30px;
+}
+span {
+	width: 150px;
+	height: 30px;
+	padding: 10px 15px;
+	background-color: aqua;
+	border: solid 5px blueviolet;
+}
+span:hover{
+	background-color: black;
+	color: aqua;
+}
+
+img {	
+	width: 50%;
+	height: 50vh;
+	border: solid 10px blueviolet;
+	background-color: blue;
+	padding: 25PX;
+	margin-left: 30px;
+}
+h1{	
+	background-color: blue;
+	padding: 20px;
+	text-align: center;
+}
+.italica {
+	font-style: italic;
+	background-color: blue;
+}
+.negrita {
+	font-weight: bold;
+}
+.impact{
+	font-family: sans-serif;
+}
+footer{
+	background-image: url(logo.png);
+	padding: 50px;
+	border: solid 10px blueviolet;
+	margin: 30px;
+}
+header{
+	margin: 30px;
+}
+body{
+	background-color: aquamarine;
+}

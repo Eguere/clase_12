@@ -1,0 +1,45 @@
+.bg-gradiente{
+    background-color: aqua;
+    background-image: linear-gradient(315deg, blueviolet 0%, aquamarine 74%);
+}
+.anima{
+    animation-name: caja;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.anima2{
+    animation-name: caja;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+.anima3{
+    animation-name: caja;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+}
+@keyframes caja{
+    30%{
+        transform: translate(90%, -400px);
+    }
+    50%{
+        transform: rotate(160deg);
+    }
+}
+.transicion{
+    transition: width 2s;
+}
+.transicion:hover{
+    width: 50%;
+    height: 500px;
+    border: solid blueviolet;
+}
+a:hover{
+    font-weight: bold;
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: underline;
+}
+main{
+    background-color: aqua;
+    background-image: linear-gradient(315deg, blueviolet 0%, aquamarine 74%);
+}
